@@ -1,0 +1,17 @@
+# robots.txt for Milabi Global
+# https://milabiglobal.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow admin and sensitive paths (if any)
+Disallow: /admin/
+Disallow: /account/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /wishlist/
+Disallow: /orders/lookup
+Disallow: /assets/storefront/
+
+# Sitemap location (adjust if you have a sitemap.xml)
+Sitemap: https://milabiglobal.com/sitemap.xml
